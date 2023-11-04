@@ -5,7 +5,7 @@
 
         <div class="mx-auto w-full flex flex-row flex-wrap mt-10 mb-12">
             <div class="w-full">
-                <table class="w-full text-primary text-[1.2rem] md:text-[1.5rem]">
+                <table class="w-full text-primary text-[1.2rem] md:text-[1.8rem]">
                     <tr class="w-full bg-[#FF3131] border-4 border-primary ">
                         <td class="w-20 text-center border-r-4 border-r-primary px-2 py-6">1</td>
                         <td class="px-4">Harsha Amarasingha</td>
