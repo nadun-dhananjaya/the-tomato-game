@@ -1,0 +1,39 @@
+<div class="w-full h-full relative">
+    {{-- @include('livewire.game-pad.game-finish-model') --}}
+    <div class=" w-full h-full flex justify-center items-center">
+        <div class="max-w-[51rem] min-w-[18rem] mx-auto w-full flex flex-row flex-wrap px-4 ">
+            <div class="w-1/2 ">
+                <h2 class="text-[1.5rem] md:text-[3em] text-primary text-start uppercase">
+                    SCORE : 3
+                </h2>
+            </div>
+            <div class="w-1/2">
+                <h2 class="text-[1.5rem] md:text-[3em] text-primary text-end uppercase">
+                    LAP : 1/3
+                </h2>
+            </div>
+            <div class="w-full aspect-video">
+                <img src="https://www.sanfoh.com/uob/tomato/data/t82bac6c84cacc1e938e6eb6736n173.png"
+                    class="w-full object-cover" />
+            </div>
+            <div class="w-full flex flex-row gap-2 ">
+                <div class="w-4/6 ">
+                    <input type="text" value=""
+                        class="bg-transparent outline-0 text-[1.5rem]  text-primary px-4 h-16 border-[4px] focus:outline-0 focus:ring-0 focus:border-[#ffefac] border-primary  w-full" />
+                </div>
+                <div class="w-2/6 ">
+                    <button type="button"
+                        class="bg-[#FF3131] outline-0 text-[1.5rem] hover:bg-[#ff4646] active:bg-[#FF3131] text-primary px-4 h-16 border-[4px] focus:outline-0 focus:ring-0  border-primary  w-full">
+                        Check
+                    </button>
+                </div>
+            </div>
+            <div class="w-full ">
+                <label class="text-[1.5rem] break-all  text-primary text-start ">
+                    23 is less than missing number
+                </label>
+            </div>
+        </div>
+    </div>
+
+</div>
