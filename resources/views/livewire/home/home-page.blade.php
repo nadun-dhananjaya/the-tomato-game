@@ -1,6 +1,6 @@
-<div class=" w-full h-full flex justify-center items-center">
+<div class="flex items-center justify-center w-full h-full ">
     <div class="max-w-[51rem] min-w-[18rem]  w-full mx-auto px-4 ">
-        <h2 class="text-[2rem] md:text-[3em] text-primary text-center uppercase">Welcome Yash</h2>
+        <h2 class="text-[2rem] md:text-[3em] text-primary text-center uppercase">Welcome Rio</h2>
         <h1 class="text-[3rem] md:text-[7em] text-primary text-center uppercase">THE TOMATO GAME</h1>
 
         <div class="mt-5">
