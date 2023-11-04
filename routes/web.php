@@ -1,40 +1,23 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Livewire\Auth\Register;
+use App\Livewire\Auth\SignIn;
 use App\Livewire\GamePad\GamePad;
 use App\Livewire\Home\HomePage;
 use App\Livewire\Scoreboard\Scoreboard;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
-
-Route::get('/', function () {
-    return view('welcome');
-});
 
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
 
+Route::get('/', SignIn::class)->name('signin');
+Route::get('/signup', Register::class)->name('signup');
 Route::get('/home', HomePage::class)->name('home-page');
 Route::get('/game-pad', GamePad::class)->name('game-pad');
 Route::get('/score-board', Scoreboard::class)->name('score-board');
 
 
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-});
+
 
 require __DIR__ . '/auth.php';
