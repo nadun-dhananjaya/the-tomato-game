@@ -19,7 +19,6 @@ Route::get('/', function () {
     return redirect(route('login'));
 });
 
-Route::get('/signup', Register::class)->name('signup');
 
 
 Route::middleware('auth')->group(function () {

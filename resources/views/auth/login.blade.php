@@ -29,7 +29,7 @@
                         Sign In
                     </button>
 
-                    <a href="{{ route('signup') }}" class="cursor-pointer">
+                    <a href="{{ route('register') }}" class="cursor-pointer">
                         <label class="text-primary text-[1.5rem] font-normal cursor-pointer">Don't you have an account
                             ?</label>
                     </a>
