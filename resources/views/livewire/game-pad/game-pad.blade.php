@@ -10,7 +10,8 @@
         <div class="max-w-[51rem] min-w-[18rem] mx-auto w-full flex flex-row flex-wrap px-4 ">
             <div class="w-1/2 ">
                 <h2 class="text-[1.5rem] md:text-[3em] text-primary text-start uppercase">
-                    SCORE : {{ $score }} {{ $solution }}
+                    SCORE : {{ $score }}
+                    {{-- {{ $solution }} --}}
                 </h2>
             </div>
             <div class="w-1/2">
