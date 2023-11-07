@@ -21,5 +21,14 @@
             </a>
 
         </div>
+        <div class="mt-5 mb-12">
+            <a href="{{ route('logout') }}">
+                <button type="button" wire:navigate()
+                    class="bg-[#FF3131] outline-0 tracking-[0.2rem]  text-[1.5rem] hover:bg-[#ff4646] active:bg-[#FF3131] text-primary px-4 py-3 sm:py-4 border-[4px] focus:outline-0 focus:ring-0  border-primary  w-full">
+                    Logout
+                </button>
+            </a>
+
+        </div>
     </div>
 </div>
